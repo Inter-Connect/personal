@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+  overflow: hidden;
+}
+
 main {
   overflow-x: hidden; /*or overflow-x:scroll */
   display: flex;
@@ -15,6 +21,7 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 4ch;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 section:nth-child(even) {
