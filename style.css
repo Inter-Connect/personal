@@ -2,6 +2,7 @@
 
 body {
   overflow: hidden;
+  background-color: white;
 }
 
 main {
@@ -27,4 +28,36 @@ section {
 section:nth-child(even) {
   background-color: #ff7575;
   color: white;
+}
+
+#siteList {
+  font-size: 1.5ch;
+}
+
+.inRed {
+  padding: 5vh;
+  border: 1vh solid white;
+  border-radius: 1vh;
+  transition-duration: 0.4s;
+  background-color: white;
+  color: #ff7575;
+}
+
+.inRed:hover {
+  background-color: #ff7575;
+  color: white;
+}
+
+.inWhite {
+  padding: 5vh;
+  border: 1vh solid #ff7575;
+  border-radius: 1vh;
+  transition-duration: 0.4s;
+  background-color: #ff7575;
+  color: white;
+}
+
+.inWhite:hover {
+  background-color: white;
+  color: #ff7575;
 }
